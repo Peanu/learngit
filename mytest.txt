@@ -3,3 +3,4 @@ my name is xu.hello world!!!
 =======
 my name in wang.Hello world!!!
 >>>>>>> wang
+I don't want give up!
