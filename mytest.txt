@@ -1,6 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 my name is xu.hello world!!!
 =======
 my name in wang.Hello world!!!
 >>>>>>> wang
 I don't want give up!
+=======
+my name in wang.Hello world!!!
+ssssssssssssssssssssssssssssss
+Today,I also learning,what are you do xu?
+>>>>>>> wang
