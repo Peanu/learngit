@@ -24,7 +24,7 @@ my name is xu.
 =======
 
 <<<<<<< HEAD
-my name is xu.I want know what's wang doing now.
+my name is xu.I want know what's wang doing now.Today feel is good.
 =======
 my name is xu.
 my name is wang.Today I also styding,what are you do?
