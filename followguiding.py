@@ -33,7 +33,7 @@ class TTS:
         self.status = True
         speech.say(self.tts)
         self.status = False
-spk = TTS()
+spk = TTS()#创建一个实例
 class Driver:
     log_flag = False
     
@@ -166,7 +166,7 @@ class Driver:
                 if self.follow_flag == True:
                     #self.follow_flag = False
                     pos = stdmsg.Pose()
-                    if self.relative_pos.position.x > 0 and self.global_pos.position.x:
+                    if self.relative_pos.position.x > 0 and self.global_pos.position.x://??????????
                         self.last_relative_pos.position.y = self.relative_pos.position.y
                         
                         self.counter=0
@@ -224,9 +224,9 @@ class Driver:
 
                         elif self.last_relative_pos.position.y>=0:
                             print 'no target'
-                            pos.position.x = self.global_pos.position.x
+                            pos.position.x = self.global_pos.position.x//将当前x点坐标传递给机器
                             pos.position.y = self.global_pos.position.y
-                            pos.orentation.yaw = self.global_pos.orentation.yaw+0.6
+                            pos.orentation.yaw = self.global_pos.orentation.yaw+0.6//将当前角速度加0.6传递给机器
                             if(self.rpc!= None):self.rpc.call('set_goal', pos )
 
                         else:
